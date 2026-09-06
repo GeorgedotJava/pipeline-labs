@@ -34,3 +34,12 @@ jobs:
           echo "5. steps: Passos individuais dentro de um job"
           echo ""
           echo "Total de elementos obrigatórios"
+
+      - name: Variaveis e contexto
+        run: |
+          echo "== ELEMENTOS OBRIGATÓRIOS == "
+          echo "1. env: Variaveis de ambiente"
+          echo "2. contextos: Acesso a informação do workflow, job, runner, etc"
+          echo ""
+          echo "Total de variáveis e contextos: 2"
+          
